@@ -1,7 +1,7 @@
 public class Cheer {
 
-  public static void cheer(){
-    System.out.println("Hello Backend");
+  public static void cheer(String who){
+    System.out.println("Hello " + who);
   }
 
 }
